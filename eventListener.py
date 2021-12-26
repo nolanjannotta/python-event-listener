@@ -3,7 +3,7 @@ import json
 import time
 
 
-apiURL = "https://kovan.infura.io/v3/0469beb7178d48eb9c95721158062ea2"
+apiURL = ""
 account = "0xc623cAA847a077029624dEc1374a8f8C4d25035d"
 contractAddress = "0x4f430Cb75D906EB18E1D4eC6104202237818Bc3C"
 
