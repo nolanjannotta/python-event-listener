@@ -4,8 +4,8 @@ import time
 
 
 apiURL = ""
-account = "0xc623cAA847a077029624dEc1374a8f8C4d25035d"
-contractAddress = "0x4f430Cb75D906EB18E1D4eC6104202237818Bc3C"
+account = ""
+contractAddress = ""
 
 
 web3 = Web3(Web3.HTTPProvider(apiURL))
