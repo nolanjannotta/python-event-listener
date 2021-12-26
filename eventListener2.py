@@ -4,7 +4,7 @@ from web3 import Web3
 import asyncio
 
 # add your blockchain connection information
-infura_url = "https://kovan.infura.io/v3/0469beb7178d48eb9c95721158062ea2"
+infura_url = ""
 web3 = Web3(Web3.HTTPProvider(infura_url))
 
 # get abi
