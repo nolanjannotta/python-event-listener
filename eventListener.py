@@ -3,12 +3,12 @@ import json
 import time
 
 
-apiURL = "https://kovan.infura.io/v3/0469beb7178d48eb9c95721158062ea2"
+infuraURL = ""
 account = "0xc623cAA847a077029624dEc1374a8f8C4d25035d"
 contractAddress = "0x7b9fC3fBE0a4ff099126FcAdA64e70dEc6B4b07B"
 
 
-web3 = Web3(Web3.HTTPProvider(apiURL))
+web3 = Web3(Web3.HTTPProvider(infuraURL))
 
 
 f = open('./ABI/EmitEvent.json')
