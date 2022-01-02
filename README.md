@@ -1,4 +1,4 @@
-# python-event-listener
+# python-web3-scripts
 
 
 very simple script that listens for events emitted by a given contract
