@@ -45,11 +45,6 @@ def handle_event(event):
     print("from", event.args.src, event.event, "amount:", event.args.wad / 10**18)
 
 
-
-
-
-
-
 async def log_loop(filterList, poll_interval):
     
 
