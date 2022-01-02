@@ -19,7 +19,7 @@ class Balance:
         if self.balance > _gas:
 
             print("____________________________________________________________________________")
-            print("target address has initial balance of: " + str(self.balance / 10 **18))
+            print(f"target address has initial balance of: {str(self.balance / 10 **18)}")
             print("withdrawing...")
             createTransaction()
             self.balance = web3.eth.get_balance(targetAddress)
