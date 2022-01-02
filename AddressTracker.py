@@ -2,12 +2,12 @@ from web3 import Web3
 import time
 
 
-infura_url_arb_testnet = "https://arb-rinkeby.g.alchemy.com/v2/9aCVAvacX6YjA7kBIVIVJ1iEBTB-criR"
+infura_url_arb_testnet = ""
 
-receiverAddress = "0x86449BFCa17bbAe097db76Ff5873F4522738a54B"
+receiverAddress = ""
 
-targetAddress = "0xCC6ceC5a5A8Cf40F4F605DD0d8c77cFA8A6Ac60c"
-_private = "3df016d230d339e1f9cf9ad60fdbad2e86a83d4fdecfa714ae1b879eb3f8770f"
+targetAddress = ""
+_private = ""
 
 web3 = Web3(Web3.HTTPProvider(infura_url_arb_testnet))
 
